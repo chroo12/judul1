@@ -1,10 +1,5 @@
-.jumbotron {
-  padding-top: 2rem;
-  background-color: #e2edff;
-}
-
-.gambar {
-  background-color: #e2edff;
+body {
+  overflow-x: hidden;
 }
 
 .bi-heart-fill {
@@ -13,4 +8,20 @@
 
 section {
   padding-top: 7rem;
+}
+
+.jumbotron {
+  background-color: #e2edff;
+}
+
+.svg {
+  margin-top: -17px;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery.row > * {
+  padding: 0;
 }
